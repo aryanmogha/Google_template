@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+#body{
+    font-family: 'Quicksand', sans-serif;
+    padding: 12px;
+    border: 1px solid gray;
+    margin: 8% 25%;
+    border-radius: 8px;
+    background-image: url(aaa.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right;
+    width: 700px;
+    height: 600px;
+}
+div h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+#un{
+    width: 315px;
+}
+#id{
+    text-decoration: none;
+    color: #228ce2;
+    padding: 7px;
+}
+#pass{
+    font-size: small;
+}
+#id:hover{
+    background-color: #74c1e02c;
+}
+input{
+    padding: 10px;
+}
+#sign{
+    border: none;
+    background-color: white;
+    padding: 7px 5px;
+    color: #228ce2;
+    cursor: pointer;
+    font-size: 15px;
+}
+#sign:hover{
+    background-color: #4aade72d;
+}
+#let{
+    font-size: small;
+}
+#nxt{
+    border: none;
+    background-color: #228ce2;
+    padding: 7px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
