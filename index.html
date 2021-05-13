@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./googlestyle.css">                                      
+    <link rel="stylesheet" href="./googlestyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Id</title>
 </head>
+
 <body>
     <div id="body">
         <h3><img src="./Screenshot 2021-03-22 at 8.19.25 AM.png" alt="" height="50px"></h3>
@@ -18,17 +20,18 @@
             </p>
             <p>
                 <input type="email" placeholder="Username" data-placeholder="@gmail.com" id="un"><br>
-                <div id="let"> You can use letter, number & periodes</div>
+            <div id="let"> You can use letter, number & periodes</div>
             </p>
             <p>
                 <a href="#" id="id">Use my current email address insteed</a>
             </p>
             <br>
             <p>
-                <input type="password" placeholder="Password" id="p">
-                <input type="password" placeholder="Confirm Password" id="cp"><br><div id="pass">
+                <input type="password" placeholder="Password" id="p" value="">
+                <input type="password" placeholder="Confirm Password" id="cp"><br>
+            <div id="pass">
                 Use 8 or more characters with a mix of letters, numbers & symbols</div><br>
-                <input type="checkbox" onclick="myFunction()">Show Password
+            <input type="checkbox" onclick="myFunction()">Show Password
             </p>
             <br>
             <p id="last">
@@ -37,5 +40,26 @@
             </p>
         </form>
     </div>
+
+    <script>
+        function myFunction() {
+            var temp1 = document.getElementById("p");
+            var temp2 = document.getElementById("cp");
+            if (temp1.type === "password") {
+                temp1.type = "text";
+            }
+            else {
+                temp1.type = "password";
+            }
+            if (temp2.type === "password") {
+                temp2.type = "text";
+            }
+            else {
+                temp2.type = "password";
+            }
+
+        }
+    </script>
 </body>
+
 </html>
