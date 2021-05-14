@@ -73,12 +73,12 @@ input{
     left: 14px;
     bottom: 28px;
   }
-  input[type=text]:focus~.he {
+  input:focus~.he {
     color: black;
     bottom: 30px;
     font-size: 14px;
   }
-  input[type=text]:focus~.she {
+  input:focus~.she {
     color: black;
     bottom: 30px;
     font-size: 14px;
@@ -106,4 +106,10 @@ input{
       border-width: 1px;
       border-style: solid;
       border-color: #929191;
+  }
+  .ddd, #let{
+      margin: 0 0 25px 5px;
+  }
+  #pass{
+      margin: 0 0 0 5px;
   }
