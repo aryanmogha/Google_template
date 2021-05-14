@@ -10,6 +10,7 @@
     background-size: 350px;
     background-position: right;
     width: 700px;
+    font-size: small;
     height: 600px;
 }
 div h2 {
@@ -39,6 +40,7 @@ input{
     color: #228ce2;
     cursor: pointer;
     font-size: 15px;
+    border-radius: 5px;
 }
 #sign:hover{
     background-color: #4aade72d;
@@ -55,3 +57,46 @@ input{
     font-size: 15px;
     border-radius: 5px;
 }
+.hello{
+    position: relative;
+    right: 158px;
+    bottom: 0px;
+    font-size: 10px;
+    font-weight: 200;
+    color: #cecece;
+    transition: all 0.5s ease;
+    pointer-events: none;
+  }
+  .bye{
+    position: relative;
+    left: 14px;
+    bottom: 32px;
+  }
+  input[type=text]:focus~.he {
+    color: black;
+    bottom: 30px;
+    font-size: 14px;
+  }
+  input[type=text]:focus~.she {
+    color: black;
+    bottom: 30px;
+    font-size: 14px;
+  }
+  input[type=email]:focus~.bye{
+    color: black;
+    bottom: 62px;
+    font-size: 14px;
+  }
+  input:focus~.js {
+    color: black;
+    bottom: 30px;
+    font-size: 14px;
+  }
+    input:focus~.ps {
+    color: black;
+    bottom: 30px;
+    font-size: 14px;
+  }
+  a{
+    border-radius: 5px;
+  }
